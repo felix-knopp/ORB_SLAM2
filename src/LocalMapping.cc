@@ -24,7 +24,9 @@
 #include "Optimizer.h"
 
 #include<mutex>
-
+#include <unistd.h>
+#include <stdio.h>
+#include <stdlib.h> in "system.h"
 namespace ORB_SLAM2
 {
 

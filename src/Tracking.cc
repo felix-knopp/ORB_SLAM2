@@ -36,7 +36,9 @@
 #include<iostream>
 
 #include<mutex>
-
+#include <unistd.h>
+#include <stdio.h>
+#include <stdlib.h> in "system.h"
 
 using namespace std;
 
