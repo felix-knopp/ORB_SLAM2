@@ -38,6 +38,7 @@
 #include <unistd.h>
 #include <stdio.h>
 #include <stdlib.h>
+//#include <Osmap.h>
 namespace ORB_SLAM2
 {
 
@@ -124,7 +125,7 @@ public:
     std::vector<MapPoint*> GetTrackedMapPoints();
     std::vector<cv::KeyPoint> GetTrackedKeyPointsUn();
 
-private:
+// private:
 
     // Input sensor
     eSensor mSensor;
